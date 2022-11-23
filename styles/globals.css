@@ -1,3 +1,208 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  overflow-x: hidden; /* Hide scrollbars */
+}
+  
+    .combine {
+      }
+
+.f{
+    border: solid;  
+}
+.manage{
+  width: 80%;
+  margin-left: 10%;
+}
+.ad{
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.space{
+  width: 100%;
+  height: 10rem;
+}
+.valed{
+  width: 100%;
+  text-align: center;
+  margin-left: 33%;
+}
+.space2{
+  width: 100%;
+  height: 5rem;
+}
+.ll{
+  margin-left:7% ;
+}
+.e{
+  display: flex;
+}
+.mani{
+  margin-top: 1.2%;
+
+}
+.jjj{
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+.val2{
+  margin-left: 4%;
+  margin-top: 1%;
+}
+.val22{
+  margin-left: 0%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.val3{
+  margin-left: 9%;
+  margin-top: 2%;
+}
+.tok{
+  margin-bottom: 1rem;
+  width: 80%;
+  margin-left: 8%;
+}
+header {
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    background-color: white !important;
+    border-bottom: 1px solid rgba(250, 250, 250, 0.3);
+    height: 70px;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .background-header {
+    background-color: #fff !important;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .background-header .navbar-brand h2 {
+    color: #1e1e1e !important;
+  }
+  
+  .background-header .navbar-nav a.nav-link {
+    color: #1e1e1e !important;
+  }
+  
+  .background-header .functional-buttons ul li:first-child a {
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid #00bcd4;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #00bcd4;
+    padding: 6px 20px;
+    letter-spacing: 0.5px;
+    transition: all 0.5s;
+  }
+  .background-header .functional-buttons ul li:first-child a:hover {
+    color: #fff;
+    background-color: #00bcd4;
+    border-color: #00bcd4;
+  }
+  .background-header .navbar-nav .nav-link:hover,
+  .background-header .navbar-nav .active > .nav-link,
+  .background-header .navbar-nav .nav-link.active,
+  .background-header .navbar-nav .nav-link.show,
+  .background-header .navbar-nav .show > .nav-link {
+    color: #00bcd4 !important;
+  }
+  
+  .navbar .navbar-brand {
+    float: left;
+    margin-top: 8px;
+    outline: none;
+  }
+  
+  .dir{
+    color: white;
+    font: 30rem;
+    margin-right: 27rem;
+  }
+  .kkk{
+    height:4rem ;
+    width: 14rem ;
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+  }
+  .navbar .navbar-brand h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 800;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .colll{
+    color: #2c2444;
+    background-color: #2c2444;
+  }
+  .navbar .navbar-brand h2 em {
+    font-style: normal;
+    font-size: 16px;
+  }
+  
+  #navbarResponsive {
+    z-index: 999;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+  .navbar .navbar-nav .nav-item {
+    margin: 0px 15px;
+  }
+  .navbar .navbar-nav a.nav-link {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #fff;
+    transition: all 0.5s;
+    margin: 5px 30px 0 30px;
+  }
+  
+  .navbar .navbar-nav .nav-link:hover,
+  .navbar .navbar-nav .active > .nav-link,
+  .navbar .navbar-nav .nav-link.active,
+  .navbar .navbar-nav .nav-link.show,
+  .navbar .navbar-nav .show > .nav-link {
+    color: #00bcd4;
+  }
+  .navbar .navbar-toggler-icon {
+    background-image: none;
+  }
+  .navbar .navbar-toggler {
+    border-color: #fff;
+    background-color: rgb(255, 255, 255);
+    height: 36px;
+    outline: none;
+    border-radius: 0px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+  }
+  .navbar .navbar-toggler-icon:after {
+    content: "\f0c9";
+    color: #00bcd4;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "FontAwesome";
+  }
+  
+  @media screen and (min-width: 992px) {
+    .navbar-collapse {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
